@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120"
+   height="120"
+   viewBox="0 0 120 120"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient460">
+      <stop
+         style="stop-color:#f5a623;stop-opacity:1;"
+         offset="0"
+         id="stop456" />
+      <stop
+         style="stop-color:#f21361;stop-opacity:1;"
+         offset="1"
+         id="stop458" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient460"
+       id="linearGradient462"
+       x1="14.237288"
+       y1="27.457626"
+       x2="109.83051"
+       y2="93.559319"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient462);stroke-width:10;stroke-linejoin:round;fill-opacity:1"
+       x="7.0847473"
+       y="94"
+       id="text236"><tspan
+         id="tspan234"
+         x="7.0847473"
+         y="94"
+         style="fill-opacity:1;fill:url(#linearGradient462)">PA</tspan></text>
+  </g>
+</svg>

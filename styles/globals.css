@@ -16,6 +16,6 @@ a {
   box-sizing: border-box;
 }
 *::selection {
-  background-color: #fff200;
-  color: black;
+  background-color: #f21361;
+  color: white;
 }
