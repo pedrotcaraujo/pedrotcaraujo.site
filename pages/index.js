@@ -1,6 +1,5 @@
 import fs from "fs";
 import Head from "next/head";
-import { Container, Row, Text, Link, Spacer } from "@nextui-org/react";
 import { motion } from "framer-motion";
 
 const variants = {
@@ -18,17 +17,8 @@ export default function Home() {
         <meta name="description" content="Pedro Araujo - Software Engineer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container
-        as="main"
-        fluid
-        display="flex"
-        justify="center"
-        direction="column"
-        css={{
-          height: "90vh",
-        }}
-      >
-        <Row>
+      <main className="flex justify-center flex-col h-[90vh] px-5 lg:px-28">
+        <div className="flex">
           <motion.div
             initial="hidden"
             animate="visible"
@@ -36,36 +26,36 @@ export default function Home() {
             whileTap={{ scale: 0.8 }}
             variants={variants}
           >
-            <Text
-              h1
-              size="clamp(3rem, 5vw, 6rem)"
-              css={{
-                letterSpacing: "-1.5px",
-                textGradient: "45deg, $yellow500 -20%, $red500 100%",
-              }}
-            >
+            <h1 className="text-5xl md:text-6xl lg:text-8xl tracking-tight from-amber-500 to-red-600 font-bold bg-gradient-to-r bg-clip-text text-transparent py-2 leading-tight cursor-pointer">
               Pedro Araujo
-            </Text>
+            </h1>
           </motion.div>
-        </Row>
-        <Row>
-          <Text>
-            I am a software engineer who works with <Text b>JavaScript</Text>{" "}
-            and this is a <Text b>decentralized</Text> website.
-          </Text>
-        </Row>
-        <Spacer y={3} />
-        <Row as="footer">
-          <Link href="https://www.linkedin.com/in/pedrotcaraujo/">
+        </div>
+        <p className="mb-16">
+          I am a software engineer who works with <b>JavaScript</b> and this is
+          a <b>decentralized</b> website.
+        </p>
+        <footer>
+          <a
+            className="text-blue-700 hover:text-blue-500 pr-4"
+            href="https://www.linkedin.com/in/pedrotcaraujo/"
+          >
             linkedin
-          </Link>
-          <Spacer x={1} />
-          <Link href="https://github.com/pedrotcaraujo">github</Link>
-          <Spacer x={1} />
-          <Link href="https://twitter.com/pedrotcaraujo">twitter</Link>
-          <Spacer x={1} />
-        </Row>
-      </Container>
+          </a>
+          <a
+            className="text-blue-700 hover:text-blue-500 pr-4"
+            href="https://github.com/pedrotcaraujo"
+          >
+            github
+          </a>
+          <a
+            className="text-blue-700 hover:text-blue-500 pr-4"
+            href="https://twitter.com/pedrotcaraujo"
+          >
+            twitter
+          </a>
+        </footer>
+      </main>
     </div>
   );
 }
