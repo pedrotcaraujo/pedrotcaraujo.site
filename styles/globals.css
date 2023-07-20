@@ -1,12 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   background: white;
   color: black
 }
@@ -20,6 +20,6 @@ a {
   box-sizing: border-box;
 }
 *::selection {
-  background-color: #f21361;
+  background-color: #DD3222;
   color: white;
 }
