@@ -1,9 +1,13 @@
 module.exports = {
   reactStrictMode: true,
   trailingSlash: true,
-  exportPathMap: async function() {
+  exportPathMap: async function () {
     return {
-      '/': { page: '/' },
-    }
+      "/": { page: "/" },
+    };
   },
-}
+  images: {
+    loader: "akamai",
+    path: "",
+  },
+};
