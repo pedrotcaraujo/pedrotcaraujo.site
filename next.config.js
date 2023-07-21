@@ -7,6 +7,7 @@ module.exports = {
     };
   },
   images: {
-    unoptimized: true,
+    loader: "akamai",
+    path: "",
   },
 };
